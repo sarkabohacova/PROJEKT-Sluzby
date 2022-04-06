@@ -1,0 +1,93 @@
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    background-color: #FAFAFA;
+    text-align: center;
+}
+
+/* Opening */
+
+.traveller {
+    width: 350px;
+    height: 291px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.heading-main {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.text {
+    font-weight: 300;
+    color: #8B8B8B;
+    margin: 0 20px 30px 20px;
+}
+
+.button {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 30px;
+    border-radius: 20px;
+    display: block;
+}
+
+.adventure {
+    background-color: #407BFF;
+    margin: 0 150px 10px 150px;
+}
+
+.beach {
+    background-color: #8B8B8B;
+    margin: 0 140px 60px 140px;
+}
+
+.heading-small {
+    font-weight: 500;
+    margin-bottom: 15px;
+    padding-left: 30px;
+}
+
+.icon-container {
+    display: flex;
+    background-color: #FFFFFF;
+    text-align: left;
+    align-items: center;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    margin: 0 20px 15px 20px;
+    border-radius: 10px;
+}
+
+.last {
+    margin-bottom: 60px;
+}
+
+.icon {
+    padding: 20px;
+}
+
+@media screen and (min-width: 640px) {
+    .button-container {
+        display: flex;
+        column-gap: 20px;
+    }
+
+    .adventure {
+        margin: 0 20px 0 165px;
+    }
+
+    .beach {
+        margin: 0 165px 0 0;
+    }
+}
+
