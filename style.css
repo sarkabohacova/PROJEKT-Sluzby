@@ -151,9 +151,17 @@ body {
         margin: 0 auto;
     }
 
-    .top {
+    .opening {
         display: flex;
         flex-direction: row;
+    }
+
+    .services {
+        display: flex;
+    }
+
+    .delegate {
+        display: flex;
     }
 
 
