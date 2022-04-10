@@ -23,7 +23,13 @@ body {
     font-size: 28px;
     font-weight: 500;
     margin-top: 0;
-    margin-bottom: 40px;
+    margin-bottom: 0;
+}
+
+.text-opening {
+    margin: 30px 20px 30px 20px;
+    font-weight: 300;
+    color: #8B8B8B;
 }
 
 .text {
@@ -95,7 +101,11 @@ body {
 @media screen and (min-width: 640px) {
     .button-container {
         display: flex;
-        margin: 30px auto 20px auto;
+        margin: 30px auto 0 auto;
+    }
+
+    .button {
+        margin-bottom: 0;
     }
 
     .adventure {
@@ -118,7 +128,7 @@ body {
         display: block;
         width: 230px;
         height: 170px;
-        margin: 0px 20px 0 20px;
+        margin: 0px 10px 0 10px;
         padding: 0;
     }
 
@@ -153,17 +163,93 @@ body {
 
     .opening {
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
+        justify-content: center;
+        margin-top: 60px;
+        margin-bottom: 80px;
+        align-items: center;
     }
 
     .services {
         display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 80px;
+        justify-content: center;
+        align-items: center;
     }
 
     .delegate {
         display: flex;
+        margin-top: 80px;
+        margin-bottom: 60px;
+        justify-content: center;
+        align-items: center;
     }
 
+    .textbox {
+        text-align: left;
+        margin-right: 60px;
+    }
 
+    .text-opening {
+        margin-left: 0;
+    }
+
+    .button-container {
+        margin: 30px 0 0 0;
+    }
+
+    .button {
+        text-align: center;
+        margin: 0;
+    }
+
+    .adventure {
+        margin-right: 20px;
+    }
+
+    .beach {
+        margin-left: 20px;
+    }
+
+    .imgbox {
+        width: 425px;
+        height: 353px;
+    }
+
+    .traveller {
+        width: 425px;
+        height: 353px;
+        margin: 0;
+    }
+
+    .icon-container {
+        height: 191px;
+        width: 170px;
+        margin: 0 20px 0 0;
+    }
+
+    .services-text {
+        text-align: left;
+        margin-left: 40px;
+    }
+
+    .text {
+        margin: 0;
+    }
+
+    .heading-small {
+        padding-left: 0;
+        margin-top: 0;
+    }
+
+    .delegate-text {
+        text-align: left;
+        margin-right: 60px;
+    }
+
+    .RV {
+        margin-right: 0;
+    }
 }
 
